@@ -1,5 +1,5 @@
 ---
-Language:        C
+Language:        Cpp
 # Base Coding Style for MiniX-C11 by Haitai
 AccessModifierOffset: -2
 AlignAfterOpenBracket: Align
