@@ -17,12 +17,13 @@
 #define _SYSTEM           1      /* tell headers that this is the kernel      */
 
 /*
-   ############################################################################
-   # we need the defines above in assembly files to configure                 #
-   # the kernel                                                               #
-   #                                                                          # 
-   # correctly. However we don't need the rest                                #
-   ############################################################################ 
+   ##########################################################################
+   # we need the defines above in assembly files to configure               #
+   # the kernel                                                             #
+   #                                                                        #
+   # correctly. However we don't need the rest                              #
+   ##########################################################################
+
 */
 
 #ifndef __ASSEMBLY__
@@ -62,7 +63,7 @@
 #define cpu_is_bsp(x)      1
 
 #else
-/* For use more than on cpu                                                   */
+/* For use more than on processor                                             */
 #include "kernel/smp.h"
 
 #endif
