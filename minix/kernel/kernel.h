@@ -23,7 +23,6 @@
    #                                                                        #
    # correctly. However we don't need the rest                              #
    ##########################################################################
-
 */
 
 #ifndef __ASSEMBLY__
@@ -36,7 +35,7 @@
 #include <minix/const.h>         /* MINIX specific constants                  */
 #include <minix/ipc.h>           /* MINIX run-time system                     */
 #include <minix/param.h>
-#include <minix/sysutil.h>	      /* MINIX utility library functions           */
+#include <minix/sysutil.h>       /* MINIX utility library functions           */
 #include <minix/timers.h>        /* watchdog timer management                 */
 #include <minix/type.h>          /* MINIX specific types, e.g. message        */
 #include <sys/param.h>
